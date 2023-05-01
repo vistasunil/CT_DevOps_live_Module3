@@ -32,7 +32,7 @@
 
 https://docs.docker.com/engine/install/ubuntu/
 
-## DOCKER COMMANDS
+## Docker Commands
 
 ### Step 1: This command helps you know the installed version of the docker software on your system
 
