@@ -30,15 +30,15 @@
 
 ## DOCKER ASSIGNMENT
 
-### You work as a Devops Engineer in a leading Software Company. You have been asked to Dockerize the applications on the production server. The company uses custom software, therefore there is no pre-built container which can be used.## 
+### You work as a Devops Engineer in a leading Software Company. You have been asked to Dockerize the applications on the production server. The company uses custom software, therefore there is no pre-built container which can be used.
 
 ## Complete below Exercises to accomplish this: 
 
-### Exercise 1: Docker Pull and Commit## 
+## Exercise 1: Docker Pull and Commit
 
-## Deploy a container which has apache bundled in docker image## 
+### Deploy a container which has apache bundled in docker image
 
-## Assume the following things: 
+#### Assume the following things: 
 
 1. Use an Ubuntu container
 2. Assume the software to be installed is apache
@@ -51,9 +51,9 @@ Execute below tasks to complete this exercise:
 4. Exit the container
 5. Save the changes to the container using docker commit
 
-### Exercise 2: Docker Hub and Docker Login, Tag and Push## 
+## Exercise 2: Docker Hub and Docker Login, Tag and Push## 
 
-## Accomplish following things as next action: 
+### Accomplish following things as next action: 
 
 1. Create a docker hub account on hub.docker.com.
 2. Use docker login to login to docker hub account from the server
@@ -61,13 +61,13 @@ Execute below tasks to complete this exercise:
 4. Push it to Docker Hub
 5. Check the image got pushed successfully on Docker Hub by logging into it.
 
-### Exercise 3: Dockerfile
+## Exercise 3: Dockerfile
 
-## Download the html website code from below url using wget on the server. Suppose developer has provided you this code in zip file: 
+### Download the html website code from below url using wget on the server. Suppose developer has provided you this code in zip file: 
 
 https://www.free-css.com/assets/files/free-css-templates/download/page267/better-clean.zip
 
-## The Developers will not be working with Docker, hence from their side you will just get the code. Write a Dockerfile which could put the code in the custom image that you will build in below steps: 
+### The Developers will not be working with Docker, hence from their side you will just get the code. Write a Dockerfile which could put the code in the custom image that you will build in below steps: 
 
 1. Unzip the above html website code you just download
 2. cd to the unziped folder ## better-clean##  and write a Dockerfile inside this as below:
