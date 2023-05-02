@@ -40,42 +40,42 @@
 
 **Assume the following things:**
 
-1. Use an Ubuntu container
-2. Assume the software to be installed is apache
+* Use an Ubuntu container
+* Assume the software to be installed is apache
 
 Execute below tasks to complete this exercise:
 
-1. Pull a ubuntu docker image
-2. Run a container using this ubuntu image
-3. Login to the container and install apache inside it
-4. Exit the container
-5. Save the changes to the container using docker commit
+* Pull a ubuntu docker image
+* Run a container using this ubuntu image
+* Login to the container and install apache inside it
+* Exit the container
+* Save the changes to the container using docker commit
 
 ### Exercise 2: Docker Hub and Docker Login, Tag and Push## 
 
 #### Accomplish following things as next action: 
 
-1. Create a docker hub account on hub.docker.com.
-2. Use docker login to login to docker hub account from the server
-3. Use the new image created in Exercise 1 and tag it to your account name
-4. Push it to Docker Hub
-5. Check the image got pushed successfully on Docker Hub by logging into it.
+* Create a docker hub account on hub.docker.com.
+* Use docker login to login to docker hub account from the server
+* Use the new image created in Exercise 1 and tag it to your account name
+* Push it to Docker Hub
+* Check the image got pushed successfully on Docker Hub by logging into it.
 
 ### Exercise 3: Dockerfile
 
-**Download the html website code from below url using wget on the server. Suppose developer has provided you this code in zip file: 
+**Download the html website code from below url using wget on the server. Suppose developer has provided you this code in zip file:**
 
 https://www.free-css.com/assets/files/free-css-templates/download/page267/better-clean.zip
 
 **The Developers will not be working with Docker, hence from their side you will just get the code. Write a Dockerfile which could put the code in the custom image that you will build in below steps:**
 
-1. Unzip the above html website code you just download
-2. cd to the unziped folder ## better-clean##  and write a Dockerfile inside this as below:
-  a. Use the docker image created in Exercise 1 as base image.
-  b. Copy all the html website code to docker. Code location inside the container should be ## /var/www/html## 
-  c. Set an environment variable website=better-clean-portal
-  d. Start the apache process using Entrypoint.
-  e. Save the file.
-4. Build this Dockerfile to create a new docker image.
-5. Now, deploy better-clean website using the above image so that its accessible using public IP of the host (use port mapping)
-6. Test the website deployed successfully and accessible.
+* Unzip the above html website code you just download
+* cd to the unziped folder ## better-clean##  and write a Dockerfile inside this as below:
+  * Use the docker image created in Exercise 1 as base image.
+  * Copy all the html website code to docker. Code location inside the container should be ## /var/www/html## 
+  * Set an environment variable website=better-clean-portal
+  * Start the apache process using Entrypoint.
+  * Save the file.
+* Build this Dockerfile to create a new docker image.
+* Now, deploy better-clean website using the above image so that its accessible using public IP of the host (use port mapping)
+* Test the website deployed successfully and accessible.
