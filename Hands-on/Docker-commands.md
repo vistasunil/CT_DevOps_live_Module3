@@ -30,7 +30,7 @@
 
 ## Installation:
 
-Reffer [Official Docker installation page](https://docs.docker.com/engine/install/ubuntu/)
+Refer [Official Docker installation page](https://docs.docker.com/engine/install/ubuntu/) for installation steps.
 
 ## Docker Commands
 
